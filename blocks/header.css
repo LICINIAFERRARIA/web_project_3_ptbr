@@ -1,0 +1,43 @@
+.header {
+}
+
+.header__title {
+  position: absolute;
+  width: 850px;
+  height: 200px;
+  left: calc(50% - 850px / 2);
+  top: 194px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 720px;
+  height: 72px;
+  left: 280px;
+  top: 426px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__image {
+  margin: 0 auto;
+  padding: 0 0 94px 0;
+  max-width: 984px;
+  background-size: 100%;
+  height: 615px;
+  left: 148px;
+  top: 562px;
+}

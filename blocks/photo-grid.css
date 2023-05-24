@@ -1,0 +1,11 @@
+.photo-grid {
+  display: flex;
+  column-gap: 16px;
+  row-gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 98px 48px;
+}
+
+.photo-grid__item {
+}
