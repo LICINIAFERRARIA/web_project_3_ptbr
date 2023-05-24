@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 98px 48px;
+  width: 1184px;
 }
 
 .photo-grid__item {
