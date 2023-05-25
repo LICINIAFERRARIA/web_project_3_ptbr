@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+}
+
+.footer_author {
+  display: flex;
+  text-align: center;
+  width: 163px;
+  height: 16px;
+  left: 559px;
+  top: 7433px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: right;
+
+  color: #ffffff;
+}
