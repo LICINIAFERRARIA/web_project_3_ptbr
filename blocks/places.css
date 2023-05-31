@@ -1,8 +1,28 @@
+.places {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .places__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: (2 2fr);
 }
 
 .places__title {
+  width: 460px;
+  height: 152px;
+  left: 148px;
+  top: 2411px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
   color: #ffffff;
+  text-align: left;
 }
 
 .places__image {
@@ -13,12 +33,49 @@
 }
 
 .places__name-author {
+  width: 456px;
+  height: 45px;
+  left: 648px;
+  top: 2518px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
   color: #ffffff;
 }
 
 .places__paragraph {
+  width: 484px;
+  height: 203px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
   color: #ffffff;
 }
 
 .places__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  padding: 13px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  width: 315px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  background: #0278fe;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 580px) {
+  .places__cards {
+    display: grid;
+    grid-template-columns: (1fr);
+  }
 }

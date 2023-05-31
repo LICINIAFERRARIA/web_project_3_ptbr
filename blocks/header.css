@@ -1,14 +1,15 @@
 .header {
   display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header__title {
-  position: absolute;
   width: 850px;
   height: 200px;
-  left: calc(50% - 850px / 2);
-  top: 194px;
-
+  padding-left: 215px;
+  padding-right: 215px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -16,14 +17,16 @@
   line-height: 100px;
   text-align: center;
   color: #ffffff;
+  margin: 0;
+  padding: 91px 0 32px 0;
 }
 
 .header__subtitle {
-  position: absolute;
   width: 720px;
   height: 72px;
   left: 280px;
   top: 426px;
+  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -46,11 +49,9 @@
 
 .header__image {
   margin: 0 auto;
-  padding: 0 0 94px 0;
+  padding: 64px 0 92px 0;
+  width: 100€;
   max-width: 984px;
   background-size: 100%;
-  height: 615px;
-  left: 148px;
-  top: 562px;
   justify-content: center;
 }

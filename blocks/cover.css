@@ -1,17 +1,47 @@
 .cover {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6601px;*/
 }
 
 .cover__photo {
+  width: 1184px;
+  height: 740px;
+  top: 6601px;
+  background: #2a2c2f;
+  opacity: 0.3;
 }
 
 .cover__title {
+  text-align: center;
+  position: relative;
   color: #fffdfd;
 }
 
 .cover__subtitle {
+  position: relative;
   color: #ffffff;
 }
 
 .cover__link {
   color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  padding: 13px 20px;
+  width: 151px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  background: #0278fe;
+  border-radius: 4px;
+  order: 0;
 }

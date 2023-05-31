@@ -1,5 +1,5 @@
 .footer {
-  display: flex;
+  position: relative;
 }
 
 .footer_author {
