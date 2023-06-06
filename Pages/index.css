@@ -20,7 +20,7 @@ body {
   border: solid yellowgreen;
 }
 
-@media screen and (max-widht: 992px) {
+@media screen and (max-width: 992px) {
   .page {
     max-width: 992px;
   }
