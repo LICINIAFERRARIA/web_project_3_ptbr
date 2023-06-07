@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,9 +34,7 @@
                 viemos. Sinta-se à vontade para adicionar sua própria história e uma obra de arte visual
                 dedicada à sua cidade natal à nossa coleção. Não importa de onde você é, estamos felizes por você ser nosso vizinho.</p>    
             </div>
-        </section>
-
-        <section class="photo-grid"> <!--Alt nulo = quando a funcao da imagem é decorativa, sem informacao-->
+            <div class="photo-grid"> <!--Alt nulo = quando a funcao da imagem é decorativa, sem informacao-->
                 <img class="photo-grid__item" src="images/photo-grid01.jpg" alt="">
                 <img class="photo-grid__item" src="images/photo-grid02.jpg" alt="">
                 <img class="photo-grid__item" src="images/photo-grid03.jpg" alt="">
@@ -45,7 +43,10 @@
                 <img class="photo-grid__item" src="images/photo-grid06.jpg" alt="">
                 <img class="photo-grid__item" src="images/photo-grid07.jpg" alt="">
                 <img class="photo-grid__item" src="images/photo-grid08.jpg" alt="">
+        </div>
         </section>
+
+        
 
         <section class="places">
             <ul class="places__item"> <!--table-->
@@ -66,7 +67,7 @@
                     paisagem é difícil de percorrer para quem anda de bicicleta e quem usa salto. A margem esquerda é 
                     considerada muito menos interessante e prestigiosa, mesmo por pessoas que vivem na periferia da margem direita.</p>
                   </div>
-                  <a class="places__link" href="#" >Compre esta obra de arte como NFT</a>
+                  <a class="button" href="#" >Compre esta obra de arte como NFT</a>
                 </li>
                 <li class="places__cards"><!--table__cell-->
                     <h2 class="places__title">Criccieth, País de Gales</h2>
@@ -86,7 +87,7 @@
                     consecutivos por suas espetaculares exibições florais pela cidade. Foi também a casa de David Lloyd George,
                     o único galês a ocupar o cargo de primeiro-ministro do Reino Unido.</p>
                    </div>
-                    <a class="places__link" href="#" >Compre esta obra de arte como NFT</a>
+                    <a class="button" href="#" >Compre esta obra de arte como NFT</a>
                 </li> 
                 <li class="places__cards"><!--table__cell-->
                     <h2 class="places__title">Berea, EUA</h2>
@@ -105,7 +106,7 @@
                         fundado em 1855 e foi o primeiro colégio no sul a ser racialmente integrado, bem como o primeiro a ser misto. De 
                         forma um tanto singular, não cobra mensalidades - todo aluno recebe uma bolsa de estudos integral.</p>
                     </div>
-                    <a class="places__link" href="#" >Compre esta obra de arte como NFT</a>
+                    <a class="button" href="#" >Compre esta obra de arte como NFT</a>
                 </li>
                 <li class="places__cards"><!--table__cell-->
                     <h2 class="places__title">Muramvya, Burundi</h2>
@@ -126,7 +127,7 @@
                         variando entre 1.550 e 2.660 metros de altitude. Está repleta de uma bela vegetação e fonte para os vários rios e riachos 
                         que fornecem água em todo o país.</p>
                     </div>
-                    <a class="places__link" href="#" >Compre esta obra de arte como NFT</a>
+                    <a class="button" href="#" >Compre esta obra de arte como NFT</a>
                 </li>   
                 <li class="places__cards"><!--table__cell-->
                     <h2 class="places__title">Sao Paulo, Brasil</h2>
@@ -144,16 +145,18 @@
                         cultural e histórico. O Turismo vai além da capital com teatros, museus, bares e uma infinita opção gastronômica, o litoral e o interior paulista têm uma enorme importância
                         com destaque para as atrações naturais presentes em praias e estâncias, somente a faixa do litoral banhada pelo Oceano Atlântico possui mais de 700 km de extensão.</p>
                         </div>
-                    <a class="places__link" href="#" >Compre esta obra de arte como NFT</a>
+                    <a class="button" href="#" >Compre esta obra de arte como NFT</a>
                 </li>
             </ul>
         </section>
 
         <section class="cover">
-            <img class="cover__photo" src="images/photo-cover.jpg" alt="Foto da natureza - um campo">
-            <h2 class=" cover__title">Visite-Nos</h2>
+            <div class="cover__overlay">
+            <h2 class=" cover__title">Visite-Nos</h2>    
             <div class="cover__subtitle">Durante todo o ano Galeria de Arte Practicum 404, Avenida Tim Berners-Lee.</div>
-            <a class="cover__link" href="#" >Comprar bilhetes</a>
+            <a href="#" class="button">Comprar bilhetes</a>
+            </div>
+
         </section>
 
         </main>

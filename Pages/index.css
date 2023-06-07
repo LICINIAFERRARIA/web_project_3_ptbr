@@ -1,5 +1,6 @@
-@import url(../Vendor/Fonts/fonts.css);
 @import url(../Vendor/normalize.css);
+@import url(../Vendor/Fonts/fonts.css);
+@import url(../blocks/page.css);
 @import url(../blocks/photo-grid.css);
 @import url(../blocks/places.css);
 @import url(../blocks/header.css);
@@ -7,27 +8,4 @@
 @import url(../blocks/logo.css);
 @import url(../blocks/cover.css);
 @import url(../blocks/footer.css);
-
-body {
-  font-family: "Inter", "Arial", "Helvetica", sans-serif;
-  font-size: 1rem;
-}
-
-.page {
-  min-width: 320px;
-  margin: 0;
-  background: #2a2c2f;
-  border: solid yellowgreen;
-}
-
-@media screen and (max-width: 992px) {
-  .page {
-    max-width: 992px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .page {
-    max-width: 576px;
-  }
-}
+@import url(../blocks/button.css);
