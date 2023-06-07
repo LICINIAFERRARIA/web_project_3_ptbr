@@ -1,7 +1,7 @@
 .places {
-  margin: 92px auto;
   width: 100%;
   color: #ffffff;
+  margin: 0;
 }
 
 .places__item {
@@ -92,6 +92,10 @@
 }
 
 @media (max-width: 992px) {
+  .places {
+    margin: 0;
+  }
+
   .places__cards {
     padding-left: 24px;
     padding-right: 24px;
@@ -109,6 +113,7 @@
 @media (max-width: 576px) {
   .places {
     display: flex;
+    margin: 0;
   }
 
   .places__cards {

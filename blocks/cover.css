@@ -76,7 +76,7 @@
 
 @media (max-width: 576px) {
   .cover {
-    height: 320px;
+    height: 255px;
   }
   .cover__photo {
     padding: 0;
