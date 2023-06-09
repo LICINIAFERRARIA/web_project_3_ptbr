@@ -1,7 +1,8 @@
 .places {
   width: 100%;
+  max-width: 984px;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .places__item {
@@ -18,8 +19,6 @@
   width: 100%;
   row-gap: 48px;
   box-sizing: border-box;
-  padding-left: 148px;
-  padding-right: 148px;
 }
 
 .places__title {
